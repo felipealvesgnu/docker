@@ -1,3 +1,4 @@
+#Alias(compiler) for this stage
 FROM golang:1.12.4 AS compiler
 #Create the dir
 WORKDIR /helloworld
